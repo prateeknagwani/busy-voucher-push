@@ -1,0 +1,17 @@
+{
+  "backend": "sqlserver",
+  "_backend_comment": "'sqlserver' (this install, fully tested) or 'access' (UNTESTED -- for a Busy install backed by MS Access instead of SQL Server; see access.file_path below and README.md's 'MS Access backend' section). Only the connection layer differs between the two -- the SQL/queries in sql_preflight.py and idempotency.py are assumed identical, since Busy's own schema should be the same either way, but this has never been verified against a real Access-backed Busy install.",
+  "access": {
+    "_comment": "Only used when backend='access'. file_path is the real Busy .mdb/.accdb database file this install actually uses -- find it via Busy's own Company Info screen or ask whoever set up that Busy install.",
+    "file_path": ""
+  },
+  "sqlserver": {
+    "_comment": "Real credentials (readonly user/password, and once created, writer user/password) go in config.local.json (gitignored), never here.",
+    "server": "YOUR_SERVER\\SQLEXPRESS",
+    "database": "YOUR_BUSY_DATABASE",
+    "readonly_user": "",
+    "readonly_password": "",
+    "writer_user": "",
+    "writer_password": ""
+  }
+}

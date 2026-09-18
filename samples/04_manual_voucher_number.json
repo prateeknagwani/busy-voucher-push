@@ -1,0 +1,11 @@
+{
+  "series": "ZManual",
+  "vch_date": "2026-09-18",
+  "party_name": "Cash",
+  "sale_type": "Local-Exempt",
+  "mc_name": "Main Store",
+  "vch_no": "ZManual/26-27/07004",
+  "items": [
+    {"item_name": "01210K0PD00", "quantity": 1, "list_price": 100, "amount": 100, "discount_percent": 0}
+  ]
+}

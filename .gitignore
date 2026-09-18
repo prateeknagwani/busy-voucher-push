@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.pyc
+outbox/
+data/
+.pytest_cache/
+config.local.json
+
+# Real screenshots of the live production Busy window + raw SQL Server row
+# dumps from the original install — never ships in the third-party handoff
+# repo (too risky to text-redact reliably). See CLAUDE.md's no-delete
+# rule: these stay on disk, just untracked. The 3 prose findings docs
+# (EXCEL_IMPORT_DIALOG.md/SQL_PREFLIGHT_NOTES.md/SCHEMA_DISCOVERY.md) ARE
+# tracked -- they've been redacted and carry no raw dumps themselves.
+findings/*.txt
+findings/*.png
+findings/*.xlsx

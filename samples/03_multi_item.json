@@ -1,0 +1,12 @@
+{
+  "series": "ZManual",
+  "vch_date": "2026-09-18",
+  "party_name": "Cash",
+  "sale_type": "Local-TaxIncl.",
+  "mc_name": "Main Store",
+  "vch_no": "ZManual/26-27/07003",
+  "items": [
+    {"item_name": "01210K0PD00", "quantity": 1, "list_price": 200, "amount": 200, "discount_percent": 0},
+    {"item_name": "01210K0PD00", "quantity": 2, "list_price": 150, "amount": 300, "discount_percent": 5}
+  ]
+}
